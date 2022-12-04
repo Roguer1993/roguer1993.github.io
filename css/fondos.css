@@ -1,0 +1,24 @@
+.fondo{
+  background-image: radial-gradient(circle at 84.43% 30.12%, #52c1ba 0, #4eaead 16.67%, #4b999c 33.33%, #488388 50%, #456d73 66.67%, #415a5f 83.33%, #3c4a4d 100%);
+    
+    background-size: cover;
+    opacity: 100%;
+    box-sizing: border-box;
+    animation: 60s 30s popup linear infinite;  
+    transition: 0s;
+}
+
+@keyframes popup {
+    60% {
+      background-image: radial-gradient(circle at 78.51% 26.08%, #db257b 0, #c61f7c 12.5%, #ad1979 25%, #921472 37.5%, #750e68 50%, #59095c 62.5%, #400651 75%, #290546 87.5%, #15023d 100%);
+    }
+    40% {
+      background-image: radial-gradient(circle at 73.99% 29.87%, #9bc453 0, #85c059 10%, #6eb95f 20%, #56b063 30%, #3ba466 40%, #189666 50%, #008865 60%, #007b64 70%, #007164 80%, #006964 90%, #006265 100%);
+    }
+    60% {
+      background-image: radial-gradient(circle at 69.78% 26.42%, #00e1da 0, #00cece 16.67%, #00b8bf 33.33%, #08a1ac 50%, #1c8a98 66.67%, #247685 83.33%, #286573 100%);
+    }
+    100% {
+      background-image: radial-gradient(circle at 84.43% 30.12%, #108781 0, #0f7674 16.67%, #136265 33.33%, #174e52 50%, #183a3f 66.67%, #17292d 83.33%, #131b1d 100%);
+    }
+}

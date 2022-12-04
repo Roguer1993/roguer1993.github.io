@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "roguel";
+    src: url("/fuentes/fuen/#06332c00");
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"roguel";
+    color: aliceblue;
+    background-color: rgb(149, 158, 157);
+}
+
+.contenedor{
+    margin: 80px auto;
+    width: 90%;
+    height: 400px;
+    max-width: 500px;
+    outline: 4px solid;
+    
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px 10em 1fr;
+
+   
+   
+
+}
+.bloques{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(96, 214, 49, 0.877);
+    
+}
+
+.elemen-1{
+    background-color: #05445E;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    align-items: center;
+}
+.elemen-2{
+    background-color: #189AB4;
+    grid-column: 5/7;
+    grid-row: 1/4;
+}
+.elemen-3{
+    background-color: #75E6DA;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.elemen-4{
+    background-color: #D4F1F4;
+    grid-column: 1/5;
+    grid-row: 3/4;
+}
+
+
